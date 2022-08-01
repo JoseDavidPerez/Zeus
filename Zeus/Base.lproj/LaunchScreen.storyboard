@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bannerupax" translatesAutoresizingMaskIntoConstraints="NO" id="Kmc-oE-llD">
-                                <rect key="frame" x="61" y="320" width="292" height="256"/>
+                                <rect key="frame" x="45" y="320" width="308" height="256"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -26,7 +26,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kmc-oE-llD" secondAttribute="trailing" constant="61" id="bIE-dH-ocb"/>
                             <constraint firstItem="Kmc-oE-llD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="276" id="ei7-cv-kDz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Kmc-oE-llD" secondAttribute="bottom" constant="286" id="tOT-ke-vDy"/>
-                            <constraint firstItem="Kmc-oE-llD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="61" id="zWY-gm-YyX"/>
+                            <constraint firstItem="Kmc-oE-llD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="zWY-gm-YyX"/>
                         </constraints>
                     </view>
                 </viewController>

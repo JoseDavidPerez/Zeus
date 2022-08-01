@@ -16,7 +16,6 @@
 		10811E3328957BAB00FDBE99 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10811E3228957BAB00FDBE99 /* Interactor.swift */; };
 		10811E3728957BEE00FDBE99 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10811E3628957BEE00FDBE99 /* Router.swift */; };
 		10811E3928957C6800FDBE99 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10811E3828957C6800FDBE99 /* Presenter.swift */; };
-		10811E3B28957C7C00FDBE99 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10811E3A28957C7C00FDBE99 /* Entity.swift */; };
 		10811E4328957FCB00FDBE99 /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10811E4128957FCB00FDBE99 /* TextFieldCell.swift */; };
 		10811E4428957FCB00FDBE99 /* TextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10811E4228957FCB00FDBE99 /* TextFieldCell.xib */; };
 		10811E4728957FDF00FDBE99 /* SelfieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10811E4528957FDF00FDBE99 /* SelfieCell.swift */; };
@@ -24,7 +23,6 @@
 		10811E4B28957FF400FDBE99 /* ChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10811E4928957FF400FDBE99 /* ChartCell.swift */; };
 		10811E4C28957FF400FDBE99 /* ChartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10811E4A28957FF400FDBE99 /* ChartCell.xib */; };
 		10811E4E289588E100FDBE99 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10811E4D289588E100FDBE99 /* Protocol.swift */; };
-		10811E5028958A5F00FDBE99 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10811E4F28958A5F00FDBE99 /* Main.swift */; };
 		10811E552895AC7400FDBE99 /* ChartRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10811E542895AC7400FDBE99 /* ChartRouter.swift */; };
 		10811E572895AC8200FDBE99 /* ChartProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10811E562895AC8200FDBE99 /* ChartProtocol.swift */; };
 		10811E592895AC9100FDBE99 /* ChartInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10811E582895AC9100FDBE99 /* ChartInteractor.swift */; };
@@ -54,7 +52,6 @@
 		10811E3228957BAB00FDBE99 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 		10811E3628957BEE00FDBE99 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		10811E3828957C6800FDBE99 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
-		10811E3A28957C7C00FDBE99 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		10811E4128957FCB00FDBE99 /* TextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
 		10811E4228957FCB00FDBE99 /* TextFieldCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldCell.xib; sourceTree = "<group>"; };
 		10811E4528957FDF00FDBE99 /* SelfieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieCell.swift; sourceTree = "<group>"; };
@@ -62,7 +59,6 @@
 		10811E4928957FF400FDBE99 /* ChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartCell.swift; sourceTree = "<group>"; };
 		10811E4A28957FF400FDBE99 /* ChartCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChartCell.xib; sourceTree = "<group>"; };
 		10811E4D289588E100FDBE99 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
-		10811E4F28958A5F00FDBE99 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		10811E542895AC7400FDBE99 /* ChartRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartRouter.swift; sourceTree = "<group>"; };
 		10811E562895AC8200FDBE99 /* ChartProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartProtocol.swift; sourceTree = "<group>"; };
 		10811E582895AC9100FDBE99 /* ChartInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartInteractor.swift; sourceTree = "<group>"; };
@@ -137,10 +133,8 @@
 				10424ECA28957964003D6AF2 /* Main.storyboard */,
 				10811E3228957BAB00FDBE99 /* Interactor.swift */,
 				10811E3828957C6800FDBE99 /* Presenter.swift */,
-				10811E3A28957C7C00FDBE99 /* Entity.swift */,
 				10811E3628957BEE00FDBE99 /* Router.swift */,
 				10811E4D289588E100FDBE99 /* Protocol.swift */,
-				10811E4F28958A5F00FDBE99 /* Main.swift */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -345,12 +339,10 @@
 				10811E6D2895B2CF00FDBE99 /* ResponseTest.swift in Sources */,
 				10424EC928957964003D6AF2 /* ViewController.swift in Sources */,
 				10811E7A2895F69700FDBE99 /* SubmitImageCell.swift in Sources */,
-				10811E3B28957C7C00FDBE99 /* Entity.swift in Sources */,
 				10811E592895AC9100FDBE99 /* ChartInteractor.swift in Sources */,
 				10811E4728957FDF00FDBE99 /* SelfieCell.swift in Sources */,
 				10424EC528957964003D6AF2 /* AppDelegate.swift in Sources */,
 				10811E3328957BAB00FDBE99 /* Interactor.swift in Sources */,
-				10811E5028958A5F00FDBE99 /* Main.swift in Sources */,
 				10811E6B2895AF7B00FDBE99 /* Company.swift in Sources */,
 				10811E692895AF6800FDBE99 /* Report.swift in Sources */,
 				10811E4E289588E100FDBE99 /* Protocol.swift in Sources */,
