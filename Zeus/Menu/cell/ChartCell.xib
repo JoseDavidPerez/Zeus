@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="ChartCell" selectionStyle="default" indentationWidth="10" rowHeight="67" id="KGk-i7-Jjw" customClass="ChartCell" customModule="Zeus" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="299" height="46"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="299" height="46"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3aZ-r2-nFD">
+                        <rect key="frame" x="10" y="10" width="279" height="26"/>
+                        <mutableString key="text">Una gráfica o representación
+gráfica es un tipo de representación de datos, generalmente numéricos,
+mediante recursos visuales (líneas, vectores, superficies o símbolos), para
+que se manifieste visualmente la relación matemática o correlación
+estadística que guardan entre sí. También es el nombre de un conjunto
+de puntos que se plasman en coordenadas cartesianas y sirven para
+analizar el comportamiento de un proceso o un conjunto de elementos o
+signos que permiten la interpretación de un fenómeno. La representación
+gráfica permite establecer valores que no se han obtenido
+experimentalmente sino mediante la interpolación (lectura entre puntos)
+y la extrapolación (valores fuera del intervalo experimental).</mutableString>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="3aZ-r2-nFD" secondAttribute="bottom" constant="10" id="VIZ-kQ-JnE"/>
+                    <constraint firstAttribute="trailing" secondItem="3aZ-r2-nFD" secondAttribute="trailing" constant="10" id="Xe9-FQ-dJa"/>
+                    <constraint firstItem="3aZ-r2-nFD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="mZj-bV-TvI"/>
+                    <constraint firstItem="3aZ-r2-nFD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="n8Y-qN-2jJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="168.84057971014494" y="106.47321428571428"/>
+        </tableViewCell>
+    </objects>
+</document>
