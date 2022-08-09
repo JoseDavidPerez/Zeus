@@ -9,7 +9,7 @@ import Foundation
 import Alamofire
 
 class Api {
-    
+    //Closure o callback
     public static func getInfo(completion: @escaping (ResponseTest?) -> Void){
         
         let url = "https://s3.amazonaws.com/dev.structure.files/examen/ios/test.json"

@@ -14,7 +14,6 @@ class ChartView : UIViewController {
     var presenter : ChartPresenter?
     
     private var chartViewReport: PieChartView?
-    
     private var chartViewCompanies: PieChartView?
     
     override func viewDidLoad() {
@@ -103,11 +102,12 @@ class ChartView : UIViewController {
         chartViewCompanies = chartView
     }
     func setupUI(){
-        
+        self.view.backgroundColor = AppDelegate.color
         setupChart()
         setupChartCompany()
         self.view.addSubview(chartViewReport!)
         self.view.addSubview(chartViewCompanies!)
+        
         self.presenter?.getInformation()
     }
     

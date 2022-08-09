@@ -11,17 +11,18 @@ import FirebaseDatabase
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    
+    public static var color : UIColor?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
         let ref = Database.database().reference(withPath: "color").observe(.value) { data in
             let value : String? = data.value as? String
             if let value = value {
                 if let viewController = UIApplication.shared.windows.first!.rootViewController as? UINavigationController{
+                    Self.color = UIColor(hex: value)
                     for vc in viewController.viewControllers {
-                        vc.view.backgroundColor = UIColor(hex: value)
+                        vc.view.backgroundColor = Self.color
                     }
                 }
             }
